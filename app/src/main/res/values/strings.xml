@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FarmerApp</string>
+    <string name="buyer_login">Buyer Login</string>
+    <string name="seller_login">Seller Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered</string>
+    <string name="farmer">farmer</string>
+    <string name="customer">Customer</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="buy">BUY</string>
+    <string name="sell">SELL</string>
+    <string name="report">Report</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_its_fine">Hello its fine</string>
+</resources>

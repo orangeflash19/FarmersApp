@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <ImageView
+        android:id="@+id/ivDisplay"
+        android:layout_width="114dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="31dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars[11]" />
+
+    <TextView
+        android:id="@+id/tvType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@id/ivDisplay"
+        android:text="Type"
+        android:textColor="#123456"/>
+
+    <TextView
+        android:id="@+id/tvQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvType"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="69dp"
+        android:layout_toRightOf="@id/ivDisplay"
+        android:text="Quantity"
+        android:textColor="#123456"/>
+
+    <TextView
+        android:id="@+id/tvSold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvQuantity"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="98dp"
+        android:layout_toRightOf="@id/ivDisplay"
+        android:text="Sold"
+        android:textColor="#123456"/>
+
+    <TextView
+        android:id="@+id/tvRemain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toRightOf="@id/ivDisplay"
+        android:text="Remaining"
+        android:textColor="#123456"/>
+</RelativeLayout>
